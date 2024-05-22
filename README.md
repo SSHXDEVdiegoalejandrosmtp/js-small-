@@ -1,2 +1,2 @@
-# js-small-
+# js-small- code
 var  + string 
