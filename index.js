@@ -1,3 +1,5 @@
+mistakesub = "kings"
+var os  =  require("os");
 var  ourCat  = "diegoalejandr"
 var ourDog = "Dog"
 
@@ -10,3 +12,8 @@ var sf = awe = "well";
 var vl = 0 ;
 
 console.log(vl);
+
+
+const wear =  78 
+console.log("Architecture: " + os.arch());
+console.log("")
