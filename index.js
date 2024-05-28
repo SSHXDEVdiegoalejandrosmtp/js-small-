@@ -1,19 +1,16 @@
-mistakesub = "kings"
-var os  =  require("os");
-var  ourCat  = "diegoalejandr"
-var ourDog = "Dog"
-
-var Im = " decod "; 
-var Mystr = "Im " +  ourCat + " i have perros or ";
-
-
-console.log(Mystr)
-var sf = awe = "well";
-var vl = 0 ;
-
-console.log(vl);
+const puppeteer = require("puppeteer");
+(async ()=> {
+    const browser = await puppeteer.launch();
+    const page  = await  browser.newPage();
+    await page.goto("");
+    await page.screenshot ({path:"amazon2"})
+    await page.click("");
+    
 
 
-const wear =  78 
-console.log("Architecture: " + os.arch());
-console.log("")
+    await browser.close();
+
+})();
+
+
+
